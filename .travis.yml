@@ -13,4 +13,4 @@ install:
 script:
   - make
   - ./mem_release_test
-  - ./sche
+  - sudo ./sche -d0 -i0 -b0 -f1 -r2 -f3 -i0 -i0 -i0 -d0
